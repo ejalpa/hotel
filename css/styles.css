@@ -1,0 +1,63 @@
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(../img/fondo.jpg);
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+
+nav, footer{
+	 background: #00895c; 
+	background: -moz-linear-gradient(45deg, #00895c 0%, #00897b 25%, #26a69a 50%, #80cbc4 75%, #b2dfdb 100%); 
+	background: -webkit-linear-gradient(45deg, #00895c 0%,#00897b 25%,#26a69a 50%,#80cbc4 75%,#b2dfdb 100%); 
+	background: linear-gradient(45deg, #00895c 0%,#00897b 25%,#26a69a 50%,#80cbc4 75%,#b2dfdb 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00895c', endColorstr='#b2dfdb',GradientType=1 );
+}
+nav{
+	font-size: 1.5rem;
+}
+
+footer{
+	height: 10vh;
+	margin-top: 5vh;
+}
+
+.container-fluid{
+	margin-top: 2vh;
+}
+
+.display-4{
+	font-family: 'Lobster', cursive;
+	margin-bottom: 0;
+}
+
+.sub, nav{
+	font-family: 'Crimson Text', serif;
+}
+
+#somos{
+	background: #b2dfdb;
+}
+#vision{
+	background: #26a69a;
+}
+#mision{
+	background: #00897b;
+}
+.galeria{
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+}
+.reserva{
+	margin-left: 2vh;
+	padding:   10px;
+}
+.contacto{
+	margin-bottom: 0px;
+}
